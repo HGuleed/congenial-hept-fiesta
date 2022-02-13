@@ -1,5 +1,5 @@
 const sequelize = require("../config/connection");
-const { Article } = require("../model");
+const Article = require("../model/Article");
 
 const articleData = [
   {
