@@ -15,14 +15,14 @@ Article.init(
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [1],
+        len: [1, 100],
       },
     },
     article_text: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [1],
+        len: [1, 100],
       },
     },
     user_id: {
